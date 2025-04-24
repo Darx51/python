@@ -1,5 +1,19 @@
+<<<<<<< HEAD
+# 1- SERIE FIBONACCI
+=======
 from modulos import fibonacci, primos, bisiesto_par_impar, calculadora, n_letras_en_frace, n_mayor_menor,adivina_numero, palindromo_en_lista, suma_listas, ordenar_lista_y_eliminar_duplicados
+>>>>>>> f0091693afa6e3149e360a97fdd5681e33c0fc93
 
+<<<<<<< HEAD
+n = int('dame un numero')
+
+a=0
+b=1
+var=a+b
+while var<n :
+    print(var)
+    
+=======
     
 
 
@@ -52,3 +66,5 @@ def menu_principal():
             print('El valor ingresado no es un numero valido')    
 
 menu_principal()
+>>>>>>> f0091693afa6e3149e360a97fdd5681e33c0fc93
+
