@@ -1,8 +1,28 @@
 def opcion_dos():
      while True :
         try :
-            
+            #Metodo a llamar            
+            def es_primo(numero): 
+                if numero<1:
+                    return False
+                for i in range(2, int(numero ** 0.5)+1):
+                    if numero % i == 0:
+                        return False
+                return True
 
+            numeros_primos= []            
+            #Inicio de programa
+            cantidad_numeros = int(input('\n Cuantos numeros quieres introducir'))
+
+            for _ in range(n):
+                num = int(input('Introduce numero'))
+                if es_primo(num):
+                    print('Es PRIMO')
+                    numeros_primos.append(num)
+                else:
+                    print(f"{num} No ES Primo")
+            print(f"  NUMEROS PRIMOS \n{numeros_primos}")
+            
 
 
 
